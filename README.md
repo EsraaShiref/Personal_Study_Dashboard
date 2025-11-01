@@ -8,7 +8,7 @@ Esraa Study Dashboard is a smart web platform designed for students to efficient
 ## Features
 - **Dashboard Overview:** Quick access to study stats and overall progress.
 - **Profile Management:** View and edit personal, study, and subscription information.
-- **Notes & Resources:** Organize and access study files (PDF, Word, CSV, images).
+- **Files** Organize and access study files (PDF, Word, CSV, images).
 - **Project Tracking:** Keep track of personal and group projects.
 - **Study Progress:** Monitor course progress and academic achievements.
 - **Study Friends:** Connect and collaborate with peers.
