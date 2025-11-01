@@ -25,7 +25,6 @@ Esraa Study Dashboard is a smart web platform designed for students to efficient
 ---
 
 ## Project Structure
-## Project Structure
 ```text
 EsraaStudyDashboard/
 ├── index.html
