@@ -25,18 +25,26 @@ Esraa Study Dashboard is a smart web platform designed for students to efficient
 ---
 
 ## Project Structure
-
-│── index.html
-│── profile.html
-│── files.html
-│── settings.html
-│── projects.html
-│── mystudycourses.html
-│── friends.html
-│── plans.html
-│── css/
-│ ├── master.css
-│ ├── framework.css
-│ └── all.min.css
-│── imgs/
-│ └── avatar.png, pdf.svg, png.svg, psd.svg, dll.svg, avi.svg, eps.svg..
+## Project Structure
+```text
+EsraaStudyDashboard/
+├── index.html
+├── profile.html
+├── files.html
+├── settings.html
+├── projects.html
+├── mystudycourses.html
+├── friends.html
+├── plans.html
+├── css/
+│   ├── master.css
+│   ├── framework.css
+│   └── all.min.css
+├── imgs/
+│   ├── avatar.png
+│   ├── pdf.svg
+│   ├── png.svg
+│   ├── psd.svg
+│   ├── dll.svg
+│   ├── avi.svg
+│   └── eps.svg
