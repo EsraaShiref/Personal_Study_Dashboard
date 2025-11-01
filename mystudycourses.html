@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Study Courses</title>
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/framework.css" />
+  <link rel="stylesheet" href="css/master.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page d-flex">
+    <div class="sidebar bg-white p-20 p-relative">
+      <h3 class="p-relative txt-c mt-0">Esraa Dashboard</h3>
+      <ul>
+        <li>
+          <a class="active d-flex align-center fs-14 c-black rad-6 p-10" href="index.html">
+            <i class="fa-regular fa-chart-bar fa-fw"></i>
+            <span>My Study Board</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="settings.html">
+            <i class="fa-solid fa-gear fa-fw"></i>
+            <span>Study Settings</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="profile.html">
+            <i class="fa-regular fa-user fa-fw"></i>
+            <span>My Profile</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="projects.html">
+            <i class="fa-solid fa-diagram-project fa-fw"></i>
+            <span>My Projects</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="mystudycourses.html">
+            <i class="fa-solid fa-graduation-cap fa-fw"></i>
+            <span>Study Progress</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="friends.html">
+            <i class="fa-regular fa-circle-user fa-fw"></i>
+            <span>ٍStudy Friends</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="files.html">
+            <i class="fa-regular fa-file fa-fw"></i>
+            <span>My Files</span>
+          </a>
+        </li>
+        <li>
+          <a class="d-flex align-center fs-14 c-black rad-6 p-10" href="plans.html">
+            <i class="fa-regular fa-credit-card fa-fw"></i>
+            <span>Plans</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content w-full">
+      <!-- Start Head -->
+      <div class="head bg-white p-15 between-flex">
+        <div class="search p-relative">
+          <input class="p-10" type="search" placeholder="Search a Course" />
+        </div>
+        <div class="icons d-flex align-center">
+          <span class="notification p-relative">
+            <i class="fa-regular fa-bell fa-lg"></i>
+          </span>
+          <img src="imgs/avatar.jpg" alt="Profile" />
+        </div>
+      </div>
+      <!-- End Head -->
+
+      <h1 class="p-relative">My Study Courses</h1>
+      <div class="courses-page d-grid m-20 gap-20">
+        <!-- Course 1 -->
+        <div class="course bg-white rad-6 p-relative">
+          <img class="cover" src="imgs/course-01.jpg" alt="" />
+          <img class="instructor" src="imgs/team-01.png" alt="" />
+          <div class="p-20">
+            <h4 class="m-0">React Native Mobile App Development</h4>
+            <p class="description c-grey mt-15 fs-14">
+              Learn to build cross-platform mobile apps using React Native, integrating UI components and connecting
+              APIs.
+            </p>
+          </div>
+          <div class="info p-15 p-relative between-flex">
+            <span class="title bg-blue c-white btn-shape">View Details</span>
+            <span class="c-grey"><i class="fa-regular fa-user"></i> 150</span>
+            <span class="c-grey"><i class="fa-regular fa-clock"></i> 20 hrs</span>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course bg-white rad-6 p-relative">
+          <img class="cover" src="imgs/course-02.jpg" alt="" />
+          <img class="instructor" src="imgs/team-02.png" alt="" />
+          <div class="p-20">
+            <h4 class="m-0">Databases (ITI)</h4>
+            <p class="description c-grey mt-15 fs-14">
+              Master database concepts including SQL, normalization, and practical database design.
+            </p>
+          </div>
+          <div class="info p-15 p-relative between-flex">
+            <span class="title bg-blue c-white btn-shape">View Details</span>
+            <span class="c-grey"><i class="fa-regular fa-user"></i> 120</span>
+            <span class="c-grey"><i class="fa-regular fa-clock"></i> 15 hrs</span>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course bg-white rad-6 p-relative">
+          <img class="cover" src="imgs/course-03.jpg" alt="" />
+          <img class="instructor" src="imgs/team-03.png" alt="" />
+          <div class="p-20">
+            <h4 class="m-0">Web Development with React</h4>
+            <p class="description c-grey mt-15 fs-14">
+              Learn front-end web development with React, creating interactive and responsive web applications.
+            </p>
+          </div>
+          <div class="info p-15 p-relative between-flex">
+            <span class="title bg-blue c-white btn-shape">View Details</span>
+            <span class="c-grey"><i class="fa-regular fa-user"></i> 180</span>
+            <span class="c-grey"><i class="fa-regular fa-clock"></i> 25 hrs</span>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course bg-white rad-6 p-relative">
+          <img class="cover" src="imgs/course-04.jpg" alt="" />
+          <img class="instructor" src="imgs/team-04.png" alt="" />
+          <div class="p-20">
+            <h4 class="m-0">Object-Oriented Programming (OOP)</h4>
+            <p class="description c-grey mt-15 fs-14">
+              Understand the core concepts of OOP including classes, objects, inheritance, and encapsulation.
+            </p>
+          </div>
+          <div class="info p-15 p-relative between-flex">
+            <span class="title bg-blue c-white btn-shape">View Details</span>
+            <span class="c-grey"><i class="fa-regular fa-user"></i> 130</span>
+            <span class="c-grey"><i class="fa-regular fa-clock"></i> 18 hrs</span>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="course bg-white rad-6 p-relative">
+          <img class="cover" src="imgs/course-05.jpg" alt="" />
+          <img class="instructor" src="imgs/team-05.png" alt="" />
+          <div class="p-20">
+            <h4 class="m-0">Microprocessor & Microcontroller</h4>
+            <p class="description c-grey mt-15 fs-14">
+              Learn the fundamentals of microprocessors and microcontrollers, including programming and interfacing
+              techniques.
+            </p>
+          </div>
+          <div class="info p-15 p-relative between-flex">
+            <span class="title bg-blue c-white btn-shape">View Details</span>
+            <span class="c-grey"><i class="fa-regular fa-user"></i> 100</span>
+            <span class="c-grey"><i class="fa-regular fa-clock"></i> 22 hrs</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
